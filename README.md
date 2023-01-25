@@ -17,10 +17,10 @@ To write a program to perform linear search and binary search using python progr
 5.	Else, compare x with the middle element of the elements on the left side of mid. This is done by setting high to high = mid - 1.
 6.	Repeat steps 2 to 5 until low meets high
 ## Program:
-i)	#Use a linear search method to match the item in a list.
+i)	##Use a linear search method to match the item in a list.
 ```
 \*
-Developed by: s.thirisha
+Developed by: S.thirisha
 RegisterNumber: 22001920
 def linearSearch(array,n,k):
     for i in range(0,n):
@@ -40,10 +40,10 @@ else:
     print("Element found at index: ",result)
 \*
 ```
-ii)	# Find the element in a list using Binary Search(Iterative Method).
+ii)	## Find the element in a list using Binary Search(Iterative Method).
 ```
 \*
-Developed by:s.thirisha
+Developed by:S.thirisha
 RegisterNumber: 22001920
 '''
 def binarySearchIter(array, k, low, high):
@@ -68,11 +68,11 @@ else:
     print("Element found at index: ",result)
 \*
 ```
-iii)	# Find the element in a list using Binary Search (recursive Method).
+iii)	3# Find the element in a list using Binary Search (recursive Method).
 ```
 \*
-Developed by: your name
-RegisterNumber: 
+Developed by: s.thirisha
+RegisterNumber: 22001920
 '''
 def BinarySearch(arr, k, low, high):
     if low<=high:
